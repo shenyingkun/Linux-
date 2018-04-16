@@ -1,10 +1,10 @@
 ## 1.服务端
 
-mkdir /home/work
+    mkdir /home/work
 
-vi /etc/exports
+    vi /etc/exports
 
-/home/work 192.168.64.*(rw,sync,no_root_squash)
+    /home/work 192.168.64.*(rw,sync,no_root_squash)
 
 ## 2.服务端 客户端
 
