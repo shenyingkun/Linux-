@@ -23,6 +23,7 @@ yum install nfs rpcbind
 /home/work    	192.168.64.*
 
 ## 5.客户端挂载
+mkdir /data
 
 mount -t nfs -o rw 服务端:/路径/ /客户端挂载路径/
 
